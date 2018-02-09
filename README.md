@@ -2,6 +2,7 @@
 # Language: Python
 # Input: CSV (with negative values)
 # Output: CSV (mapping to absolute values)
+# Tested with: PluMA 1.0, Python 2.7
 
 PluMA plugin to take a CSV file with both positive and negative data
 and convert to a CSV file with the same data as absolute values (so all negative
