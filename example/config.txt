@@ -1,0 +1,2 @@
+Prefix plugins/RemoveNegative/example/
+Plugin RemoveNegative inputfile corrP.csv outputfile corrP.abs.csv
