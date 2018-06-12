@@ -19,7 +19,7 @@ class RemoveNegativePlugin(CSV2GMLPlugin):
             filestuff.write(self.bacteria[i]+",")
          for j in range(self.n-1):
             filestuff.write(str(abs(self.ADJ[i][j]))+",")
-         filestuff.write(str(self.ADJ[i][self.n-1]))
+         filestuff.write(str(abs(self.ADJ[i][self.n-1])))
          filestuff.write("\n")
 
 
